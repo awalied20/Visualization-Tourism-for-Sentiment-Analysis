@@ -1,0 +1,7 @@
+dash>=2.9.0
+pandas
+numpy
+gunicorn
+plotly
+langchain
+google-generative-ai
