@@ -7,7 +7,7 @@ import base64
 from io import BytesIO
 
 # Load and preprocess data
-df = pd.read_csv("D:\Courses\DEPI IBM DS\Graduation Project\Last version\preprocessed_tourism_reviewsv2.csv")
+df = pd.read_csv("preprocessed_tourism_reviewsv2.csv")
 df['date'] = pd.to_datetime(df['date'])
 df['year_month'] = df['date'].dt.to_period('M').astype(str)
 df['day_of_week'] = df['date'].dt.day_name()
