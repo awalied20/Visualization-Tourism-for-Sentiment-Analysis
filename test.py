@@ -10,7 +10,7 @@ import numpy as np
 from datetime import datetime
 
 # Load and preprocess data
-df = pd.read_csv(r"C:\Users\awali\Downloads\labeled_tourism_reviews_For_EDA.csv")
+df = pd.read_csv(r"labeled_tourism_reviews_For_EDA.csv")
 
 # Convert date to datetime
 df['date'] = pd.to_datetime(df['date'])
