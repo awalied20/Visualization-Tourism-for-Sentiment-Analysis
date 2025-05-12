@@ -1,7 +1,7 @@
-dash>=2.9.0
+Dash>=2.9.0
 pandas
 numpy
 gunicorn
 plotly
 langchain
-google-generative-ai
+# google-generative-ai removed due to availability issues; configure LLM key in environment
